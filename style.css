@@ -52,3 +52,14 @@
 .calculator form input.equal {
     width: 145px;
 }
+
+.history{
+    position: absolute;
+    text-align: center;
+    background:  #3a4452;
+    top: 25px;
+    width: 250px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
