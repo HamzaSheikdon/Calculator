@@ -1,7 +1,9 @@
 // app.js
 
 let display = document.getElementById('display');
+let historyParagraph = document.querySelector('.history p');
 let expression = '';
+let history = [];
 
 function append(value) {
     expression += value;
@@ -20,8 +22,9 @@ function deleteLast() {
 
 function calculate() {
     try {
-        expression = eval(expression);
-        display.value = expression;
+        let result = eval(expression);
+        display.value = result;
+        
     } catch (error) {
         display.value = 'Error';
     }

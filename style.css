@@ -62,4 +62,10 @@
     right: 20px;
     padding: 10px;
     border-radius: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.history p{
+    padding: 5px;
 }
