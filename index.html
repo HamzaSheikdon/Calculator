@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/calculator.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Calculator</title>
 </head>
 <body>
+    <i id="historyIcon" class="ri-history-line history-button center-icon" onclick="toggleHistory()"></i>
     <div class="container">
         <div class="calculator">
             <form>
@@ -45,7 +47,7 @@
                 </div>
             </form>
         </div>
-        <div class="history">
+        <div class="history" id="historySection">
             <h3>History</h3>
             <p></p>
         </div>

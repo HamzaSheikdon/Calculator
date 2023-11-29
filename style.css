@@ -53,10 +53,10 @@
     width: 145px;
 }
 
-.history{
+.history {
     position: absolute;
     text-align: center;
-    background:  #3a4452;
+    background: #3a4452;
     top: 25px;
     width: 250px;
     right: 20px;
@@ -64,4 +64,27 @@
     border-radius: 10px;
     box-sizing: border-box;
     overflow-y: scroll;
+    display: none;
+}
+
+.history-button {
+    color: #3a4452; 
+    font-size: 30px; 
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history.visible {
+    display: block; 
 }

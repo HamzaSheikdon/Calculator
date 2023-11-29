@@ -31,3 +31,6 @@ function calculate() {
     }
 }
 
+function toggleHistory() {
+    historySection.classList.toggle('visible');
+}
